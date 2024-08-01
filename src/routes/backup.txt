@@ -1,0 +1,106 @@
+
+  const [tasksColumns, setTaskColumns] = useState([
+    {
+      id: 0,
+      tasks: [
+        createUpcomingTask({
+          title: "Praticar desenvolvimento front end",
+          description: "Sample description",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Fazer 100 push-ups",
+          description: "",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Read 10 pages of Network book",
+          description: "",
+          priority: 3,
+        }),
+      ],
+    },
+    {
+      id: 1,
+      tasks: [
+        createUpcomingTask({
+          title: "Praticar desenvolvimento front end",
+          description: "Sample description",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Fazer 100 push-ups",
+          description: "",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Read 10 pages of Network book",
+          description: "",
+          priority: 3,
+        }),
+      ],
+    },
+    {
+      id: 2,
+      tasks: [
+        createUpcomingTask({
+          title: "Praticar desenvolvimento front end",
+          description: "Sample description",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Fazer 100 push-ups",
+          description: "",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Read 10 pages of Network book",
+          description: "",
+          priority: 3,
+        }),
+      ],
+    },
+    {
+      id: 3,
+      tasks: [
+        createUpcomingTask({
+          title: "Praticar desenvolvimento front end",
+          description: "Sample description",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Fazer 100 push-ups",
+          description: "",
+          priority: 2,
+        }),
+        createUpcomingTask({
+          title: "Read 10 pages of Network book",
+          description: "",
+          priority: 3,
+        }),
+      ],
+    },
+    {
+      id: 4,
+      tasks: [
+        // createUpcomingTask({
+        //   id: 12,
+        //   title: "Praticar desenvolvimento front end",
+        //   description: "Sample description",
+        //   priority: 2,
+        // }),
+        // createUpcomingTask({
+        //   id: 13,
+        //   title: "Fazer 100 push-ups",
+        //   description: "",
+        //   priority: 2,
+        // }),
+        // createUpcomingTask({
+        //   id: 14,
+        //   title: "Read 10 pages of Network book",
+        //   description: "",
+        //   priority: 3,
+        // }),
+      ],
+    },
+  ]);
